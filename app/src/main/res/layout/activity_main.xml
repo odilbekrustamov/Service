@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="15dp"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input"/>
+
+    <Button
+        android:id="@+id/startService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service" />
+
+    <Button
+        android:id="@+id/stopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"/>
+
+    <Button
+        android:id="@+id/fileDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File download"/>
+
+    <Button
+        android:id="@+id/backgroundService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YouTube vedio download"/>
+
+
+</LinearLayout>
